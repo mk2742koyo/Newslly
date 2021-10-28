@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+/* ベース
+---------------------------------*/
+body{
+  color: #6C6C6F;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li{
+  list-style: none;
+}
+
+p{
+    font-size: 14px;
+}
+
+li{
+    font-size: 12px;
+}
+
+/* レイアウト
+-----------------------------------*/
+/* ヘッダー */
+.l-header{
+    padding: 30px 100px;
+}
+
+/* inner */
+main{
+    padding: 0 100px;
+}
+
+/* flex */
+.l-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    max-width: 50%;
+}
+.flex2{
+    display: flex;
+}
+
+
+
+/* モジュール
+-----------------------------------*/
+
+.card{
+
+}
